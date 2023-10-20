@@ -1,7 +1,6 @@
 package db
 
 import (
-	"github.com/codeedu/imersao/codepix-go/domain/model"
 	"log"
 	"os"
 	"path/filepath"
@@ -10,6 +9,7 @@ import (
 	"github.com/jinzhu/gorm"
 	"github.com/joho/godotenv"
 	_ "github.com/lib/pq"
+	"github.com/polyanacunha/CodePix/domain/model"
 	_ "gorm.io/driver/sqlite"
 )
 
